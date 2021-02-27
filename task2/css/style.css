@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -73,4 +74,81 @@ hr {
 
 .colored_text {
     color: lightseagreen;
+=======
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main_container {
+    width: 35%;
+    height: 80%;
+}
+
+.my_nav_bar {
+    float: left;
+    padding: 1%;
+    width: 100%;
+    font-size: 15px;
+}
+
+.nav_item {
+    display: inline-block;
+}
+
+nav div {
+    padding-right: 10%;
+}
+
+.img_container {
+    position: relative;
+    display: inline-block;
+}
+
+div img {
+    display: block;
+}
+
+.overlay-img {
+    background-color: rgb(1 1 1 / 51%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+div h3 {
+    position: absolute;
+    top: 74%;
+    left: 18%;
+    color: white;
+    font-size: 20px;
+}
+
+.image2 {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    border-radius: 50%;
+}
+
+.text_container {
+    margin: 5%;
+}
+
+hr {
+    width: 20%;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+.colored_text {
+    color: lightseagreen;
+>>>>>>> 55d639dc5989720b18632a4e4f8ce5d67d076cb0
 }
