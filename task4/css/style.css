@@ -1,0 +1,540 @@
+/* reset*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+    text-transform: capitalize;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.wow {
+    transition-duration: 0.5s;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.black-text {
+    color: black;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.white-border {
+    border-bottom: 1px solid #ffffff;
+}
+
+.gray-border {
+    border-bottom: 2px solid #F1F1F1;
+}
+
+.tob-border {
+    border-top: 2px solid #F1F1F1;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.onehundred-hight {
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.column-flex {
+    flex-direction: column;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    margin: 2% 10px;
+    font-size: 15px;
+}
+
+li:hover a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 12px;
+    text-align: left;
+    margin: 4% 2% 0% 5%;
+    color: gray;
+    line-height: 150%;
+}
+
+.sub-header {
+    font-size: 15px;
+    color: black;
+    margin-top: 1.5%;
+}
+
+.big-div {
+    width: 100%;
+    height: 192px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mid-image {
+    width: 190px;
+    height: 190px;
+}
+
+.small-image {
+    width: 90px;
+    height: 90px;
+}
+
+.arrow-icons {
+    font-size: 20px;
+    width: 30px;
+    height: 23px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #F1F1F1;
+    color: gray;
+    padding: 5px 0px 0px 0px;
+    margin: 4% 1%;
+}
+
+.arrow-icons:hover {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.social-icons {
+    border-radius: 50%;
+    border: 2px solid #F1F1F1;
+    color: gray;
+    padding: 4%;
+    margin-right: 4%;
+}
+
+.social-icons:hover {
+    color: blue;
+    transition-duration: 0.5s;
+}
+
+.fb {
+    padding: 3% 5%;
+}
+
+p span {
+    cursor: pointer;
+}
+
+p span:hover {
+    color: blue;
+    transition-duration: 0.5s;
+}
+
+.shadow {
+    box-shadow: 0px 2px 6px 3px #d4d4d4;
+}
+
+.paded-div {
+    padding: 5px;
+}
+
+.margened-div {
+    margin: 0% 5% 2% 0%;
+}
+
+.top-left-margened-div {
+    margin: 10% 5% 2% 5%;
+}
+
+.right-margin {
+    margin-right: 10%;
+}
+
+header {
+    margin-bottom: 3%;
+}
+
+.bolder {
+    font-weight: bold;
+}
+
+.fonte-14 {
+    font-size: 14px;
+}
+
+.fonte-18 {
+    font-size: 18px;
+}
+
+.text-align {
+    text-align: center;
+}
+
+
+/* logo style*/
+
+#logo {
+    height: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+/* nav style*/
+
+.nav-bar {
+    margin-top: 2%;
+}
+
+.nav-links {
+    margin-right: 1%;
+}
+
+.nav-links li:hover a {
+    color: #ffffff;
+}
+
+.sticky {
+    position: fixed;
+    width: 80%;
+}
+
+.search-icon {
+    font-size: 20px;
+}
+
+.search-icon:hover {
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    padding: 10px 14px 10px 200px;
+    transition-duration: 0.5s;
+    ;
+}
+
+.travel-div {
+    color: blue;
+    background-color: white;
+    padding: 1% 2%;
+    font-size: 12px;
+    margin: 25px;
+    width: 43px;
+    cursor: pointer;
+}
+
+.travel-div:hover {
+    color: white;
+    background-color: blue;
+    transition-duration: 0.5s;
+}
+
+
+/* bannar style*/
+
+.bg-image {
+    background-image: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.circule-container div {
+    margin-bottom: 2%;
+}
+
+.overlay {
+    height: 100%;
+    background-color: #000000b0;
+}
+
+.calmoverlay {
+    height: 100%;
+    background-color: #00000078;
+}
+
+.circule-container div p {
+    margin: 2%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.circule-container div span {
+    color: gray;
+    border-top: 5px solid blue;
+    border-right: 5px solid blue;
+    border-bottom: 5px solid blue;
+    border-left: 5px solid gray;
+    padding: 2% 4%;
+    border-radius: 50%;
+    margin: 2%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/*first-left-section*/
+
+.first-section {
+    margin-top: 5%;
+}
+
+.first-left-section {
+    width: 70%;
+}
+
+
+/**/
+
+.big-bg-image1 {
+    background-image: url(../images/b3.jpg);
+}
+
+.big-bg-image2 {
+    background-image: url(../images/b18.jpg);
+}
+
+.big-bg-image3 {
+    background-image: url(../images/b19.jpg);
+}
+
+.big-bg-image4 {
+    background-image: url(../images/b20.jpg);
+}
+
+.big-bg-image5 {
+    background-image: url(../images/b22.jpg);
+}
+
+
+/*left-first*/
+
+.left-first {
+    width: 70%;
+}
+
+
+/*first-right-section*/
+
+.first-right-section {
+    width: 30%;
+    margin-left: 2%;
+    border-left: 2px solid #F1F1F1;
+}
+
+.first-right-section h3 {
+    border-bottom: 2px solid #F1F1F1;
+    padding: 3% 10%;
+}
+
+.social-icons-div {
+    padding: 5% 10%;
+}
+
+.only-p {
+    margin: 10%;
+    line-height: 200%;
+}
+
+
+/* second section*/
+
+.second-section {
+    margin-top: 5%;
+}
+
+.second-section-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.center-margin {
+    margin: 6% auto;
+}
+
+.s-s-1d {
+    background-image: url(../images/b18.jpg);
+}
+
+.s-s-2d {
+    background-image: url(../images/b22.jpg);
+}
+
+.s-s-3d {
+    background-image: url(../images/b20.jpg);
+}
+
+
+/* third section*/
+
+.left-div-third-section {
+    width: 65%;
+    margin: 3% 0% 0% 0%;
+}
+
+.left-div-third-section h3 {
+    margin: 5% 0%;
+    padding-bottom: 2%;
+}
+
+.right-div-third-section {
+    width: 30%;
+    margin: 3.7% 0% 0% 0%;
+    border-left: 2px solid #F1F1F1;
+}
+
+.right-div-third-section h3 {
+    border-bottom: 2px solid #F1F1F1;
+    padding: 5% 10%;
+}
+
+.s3-right-articals {
+    width: 100%;
+    margin-left: 5%;
+}
+
+.play-icon {
+    color: gray;
+    background-color: white;
+    padding: 2% 2% 2% 3%;
+    font-size: 20px;
+    margin: 10px 0px 0px 160px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.play-icon:hover {
+    color: blue;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+
+
+/*btn*/
+
+#mybtn {
+    color: gray;
+    background-color: white;
+    border: 3px solid gray;
+    border-radius: 30px;
+    margin: 5% 5% 5% 45%;
+    font-size: 15px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+#mybtn:hover {
+    color: white;
+    background-color: blue;
+    border: 3px solid #BFDEFF;
+    transition-duration: 0.6s;
+}
+
+
+/* footer style*/
+
+footer {
+    background-color: #161616;
+    height: 250px;
+}
+
+.last-section {
+    padding-top: 90px;
+}
+
+.last-section div h4 {
+    margin-bottom: 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+.last-section div h2 {
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.last-section div h4:hover {
+    color: blue;
+    transition-duration: 0.5s;
+}
+
+.last-section div p {
+    font-size: 15px;
+}
+
+input {
+    background: none;
+    color: gray;
+    border-bottom: 2px solid gray;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 15px;
+    width: 250px;
+    padding: 2%;
+}
+
+.mail-go {
+    background: none;
+    color: gray;
+    border-bottom: 2px solid gray;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 15px;
+    padding: 2%;
+    cursor: pointer;
+}
+
+
+/* up botton style*/
+
+#up {
+    position: fixed;
+    bottom: 4%;
+    right: 6%;
+    font-size: 50px;
+    color: white;
+    background-color: #bdbdbd;
+    padding: 0px 14px 0px 14px;
+    border-radius: 50%;
+}
+
+#up:hover {
+    background-color: blue;
+}
